@@ -16,6 +16,7 @@
  */
 // write your code here
 
+var person: (name: String, age: Int) = ("Jeremy", 38)
 
 
 
@@ -27,7 +28,7 @@
  ### 2. Print out "<Name> is <Age> years old" using the tuple you created in Question 1.
  */
 // write your code here
-
+print("\(person.0) is \(person.1) years old")
 
 
 
@@ -40,7 +41,7 @@
  */
 // write your code here
 
-
+person.age += 1
 
 
 
@@ -53,6 +54,7 @@
 // write your code here
 
 
+print("Happy \(person.age)th birthday, \(person.name)!")
 
 
 
@@ -65,6 +67,8 @@
 // write your code here
 
 
+var someone: (name: String, age: Int) = ("Tim", 22)
+
 
 
 
@@ -76,7 +80,7 @@
  */
 // write your code here
 
-
+print("\(someone.name) is \(someone.age) years old")
 
 
 
@@ -88,7 +92,7 @@
 // write your code here
 
 
-
+someone.age += 1
 
 
 
@@ -98,6 +102,7 @@
  */
 // write your code here
 
+print("Happy \(someone.age)rd birthday, \(someone.name)!")
 
 
 
@@ -110,7 +115,7 @@
  */
 // write your code here
 
-
+let human = (name: "Human", age: 100)
 
 
 
@@ -120,7 +125,7 @@
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
-
+// NO!  Because human is a constant, the elements of the tuple are also constant
 
 
 
